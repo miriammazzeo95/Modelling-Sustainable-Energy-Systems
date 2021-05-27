@@ -1,0 +1,47 @@
+[PROJECT]
+
+[RP:UNTITLED_1]
+1=
+
+[RP:PART1_V2]
+1=
+
+[RP:EXCELIMPORT]
+1=
+
+[RP:EXERCISE 1]
+1=
+
+[RP:ASSIGNMENT1]
+1=
+
+[RP:PART1_V3]
+1=
+
+[RP:BASIC+CURTAIL+BIOMASS]
+1=
+
+[RP:BASICMODEL]
+1=GDX=BasicModel.gdx
+2=
+
+[MRUFILES]
+1=C:\Users\asus\Desktop\model\2. Basic+Curtail+Biomass\Basic+Curtail+Biomass.gms
+2=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\0_Basic\BasicModel.lst
+3=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\0_Basic Model\BasicModel.lst
+4=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\0_Basic Model\BasicModel.gms
+5=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\Basic Model\BasicModel.lst
+6=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\Basic Model\BasicModel.gms
+7=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\GAMS files\Assignment 1\Assignment1.gms
+8=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\GAMS files\Exercise 1\Exercise 1.gms
+9=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Attempt Excel\excelimport.gms
+
+[OPENWINDOW_1]
+FILE0=C:\Users\asus\Desktop\model\0_Basic Model\BasicModel.gms
+FILE1=C:\Users\asus\Desktop\model\0_Basic Model\BasicModel.lst
+FILE2=C:\Users\asus\Desktop\model\0_Basic Model\BasicModel.gms
+MAXIM=0
+TOP=7
+LEFT=27
+HEIGHT=400
+WIDTH=400

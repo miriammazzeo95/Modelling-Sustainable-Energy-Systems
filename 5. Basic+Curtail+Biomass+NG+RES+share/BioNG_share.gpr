@@ -1,0 +1,83 @@
+[PROJECT]
+
+[RP:UNTITLED_1]
+1=
+
+[RP:PART1_V2]
+1=
+
+[RP:EXCELIMPORT]
+1=
+
+[RP:EXERCISE 1]
+1=
+
+[RP:ASSIGNMENT1]
+1=
+
+[RP:PART1_V3]
+1=
+
+[RP:CURTAIL_V1]
+1=
+
+[RP:BIOMASSUC_V1]
+1=
+
+[RP:CURTAILCOST_V1]
+1=
+
+[RP:BIOMASSUCNOCURTAIL_V1]
+1=GDX=BiomassUCnocurtail_v1.gdx
+2=
+
+[GDXDISP: a1pv Var 0]
+PlaneDim=0
+RowDim=0
+Squeeze=1
+SqTrail0=0
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[RP:BIO&NG_V1]
+1=GDX=Bio&NG
+2=
+
+[RP:BIO&NG_MINLP]
+1=gdx=BIONG
+2=
+
+[RP:BASICMODEL]
+1=
+
+[RP:BIONG]
+1=gdx=BIONGUC_RES
+2=gdx=BIONGUC
+3=
+
+[RP:BASIC+CURTAIL+BIOMASS]
+1=gdx=Basic+Curtail+Biomass
+2=
+
+[OPENWINDOW_1]
+MAXIM=1
+TOP=80
+LEFT=531
+HEIGHT=400
+WIDTH=400
+
+[RP:BIONG_SHARE]
+1=gdx=Bio_NG_Share
+2=
+
+[MRUFILES]
+1=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\5_Bio&NG (curtail)\BioNG_share.lst
+2=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\5_Bio&NG (curtail)\BioNG_share.gms
+3=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\3_Basic+Curtail+Biomass\Basic+Curtail+Biomass.gms
+4=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\5_Bio&NG (curtail)\No share RES\BioNG.gms
+5=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\5_Bio&NG (curtail)\BioNG.lst
+6=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\0_Basic\BasicModel.gms
+7=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\5_Bio&NG (curtail)\BioNG.log
+8=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\5_Bio&NG (curtail)\MINLP\Bio&NG_MINLP.lst
+9=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\5_Bio&NG (curtail)\MINLP\Bio&NG_MINLP.gms

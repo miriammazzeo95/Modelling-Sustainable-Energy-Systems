@@ -1,0 +1,246 @@
+
+--- Job Curtail_v1.gms Start 12/01/18 14:30:47 25.1.2 r67455 WEX-WEI x86 64bit/MS Windows
+GAMS 25.1.2   Copyright (C) 1987-2018 GAMS Development. All rights reserved
+Licensee: Course License Fall 2018                       G180813:1704AO-GEN
+          Technical University of Denmark Management Engineering     DC8756
+          License for teaching and research at degree granting institutions
+          License Admin: Thomas Stidsen, thst@man.dtu.dk                   
+--- Starting compilation
+--- Curtail_v1.gms(3) 3 Mb
+--- call =xls2gms r=a1:b8760 i=Demand.xls o=demand.inc
+--- Curtail_v1.gms(8) 3 Mb
+--- . demand.inc(8771) 4 Mb
+--- Curtail_v1.gms(14) 4 Mb
+--- . windprofile.inc(8760) 4 Mb
+--- Curtail_v1.gms(20) 4 Mb
+--- . PVprofile.inc(8760) 4 Mb
+--- Curtail_v1.gms(118) 4 Mb
+--- Starting execution: elapsed 0:00:05.834
+--- Curtail_v1.gms(26331) 5 Mb
+--- Generating LP model costmin
+--- Curtail_v1.gms(26395) 22 Mb
+---   78,841 rows  43,808 columns  187,864 non-zeroes
+--- Executing CPLEX: elapsed 0:00:06.505
+
+IBM ILOG CPLEX   25.1.2 r67455 Released Aug  1, 2018 WEI x86 64bit/MS Windows 
+--- GAMS/Cplex licensed for continuous and discrete problems.
+Cplex 12.8.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 2.52 Mb
+Use option 'names no' to turn use of names off
+CPXPARAM_Advance                                 0
+CPXPARAM_Simplex_Limits_Iterations               2000000000
+CPXPARAM_TimeLimit                               1000
+CPXPARAM_Threads                                 1
+CPXPARAM_Parallel                                1
+CPXPARAM_Tune_TimeLimit                          200
+Tried aggregator 1 time.
+LP Presolve eliminated 9728 rows and 4865 columns.
+Aggregator did 220 substitutions.
+Reduced LP has 68893 rows, 38723 columns, and 168166 nonzeros.
+Presolve time = 0.17 sec. (47.16 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =     714531535.131212
+Perturbation started.
+Iteration:   101   Dual objective     =     714531535.131212
+Iteration:   430   Dual objective     =     714533756.620299
+Iteration:   907   Dual objective     =     714536488.901146
+Iteration:  1345   Dual objective     =     714538532.352975
+Iteration:  1870   Dual objective     =     714541650.651198
+Iteration:  2403   Dual objective     =     714545719.462936
+Iteration:  2922   Dual objective     =     714550563.265254
+Iteration:  3245   Dual objective     =     752341263.826172
+Iteration:  3808   Dual objective     =     752357805.281814
+Iteration:  4413   Dual objective     =     752397848.611491
+Iteration:  4857   Dual objective     =     752460826.631449
+Iteration:  5438   Dual objective     =     752559933.657643
+Iteration:  5959   Dual objective     =     752629754.669860
+Iteration:  6242   Dual objective     =     843054943.934732
+Iteration:  6780   Dual objective     =     961656842.217055
+Iteration:  7533   Dual objective     =     962055626.877055
+Iteration:  7825   Dual objective     =     962083916.544475
+Iteration:  8048   Dual objective     =     962085025.235125
+Iteration:  8250   Dual objective     =     962085890.497894
+Iteration:  8474   Dual objective     =     962086124.703878
+Iteration:  8697   Dual objective     =     962086410.929744
+Iteration:  8920   Dual objective     =     962086771.291392
+Iteration:  9143   Dual objective     =     962087750.872424
+Iteration: 10111   Dual objective     =     962866198.385109
+Iteration: 11253   Dual objective     =     964749349.401488
+Iteration: 12103   Dual objective     =     967053949.372670
+Iteration: 12958   Dual objective     =     969853478.686734
+Elapsed time = 41.89 sec. (10000.54 ticks, 13024 iterations)
+Iteration: 13710   Dual objective     =    1047225210.757796
+Iteration: 14016   Dual objective     =    1102852765.793072
+Iteration: 14286   Dual objective     =    1103212308.735909
+Iteration: 14555   Dual objective     =    1103555652.787389
+Iteration: 14822   Dual objective     =    1104031688.913720
+Iteration: 14921   Dual objective     =    1104232281.340637
+Iteration: 15094   Dual objective     =    1104457500.761104
+Iteration: 15225   Dual objective     =    1104558751.339326
+Iteration: 15553   Dual objective     =    1134852838.910866
+Iteration: 15792   Dual objective     =    1189160268.217110
+Iteration: 16044   Dual objective     =    1250072992.600984
+Iteration: 16316   Dual objective     =    1341599075.480456
+Iteration: 17453   Dual objective     =    1368875490.406868
+Iteration: 17677   Dual objective     =    1429775067.227391
+Iteration: 17969   Dual objective     =    1462232544.133488
+Iteration: 18251   Dual objective     =    1490090657.779703
+Iteration: 18560   Dual objective     =    1511284630.309648
+Iteration: 18630   Dual objective     =    1518848156.849482
+Iteration: 18701   Dual objective     =    1518970298.045122
+Iteration: 19134   Dual objective     =    1552897357.014566
+Iteration: 19301   Dual objective     =    1586358332.607995
+Iteration: 19597   Dual objective     =    1599398013.788540
+Iteration: 20095   Dual objective     =    1619968146.857262
+Iteration: 20363   Dual objective     =    1642576595.856240
+Iteration: 20621   Dual objective     =    1666503199.686836
+Iteration: 20772   Dual objective     =    1680704565.485840
+Iteration: 21142   Dual objective     =    1741988171.993623
+Iteration: 21376   Dual objective     =    1776889420.047968
+Elapsed time = 77.25 sec. (20000.90 ticks, 21592 iterations)
+Iteration: 21615   Dual objective     =    1807295544.401052
+Iteration: 21857   Dual objective     =    1835404262.937973
+Iteration: 22172   Dual objective     =    1862266216.455025
+Iteration: 22354   Dual objective     =    1877434640.566930
+Iteration: 22515   Dual objective     =    1883974294.098150
+Iteration: 22936   Dual objective     =    1907718328.371742
+Iteration: 23249   Dual objective     =    1922074455.362235
+Iteration: 23754   Dual objective     =    1946776524.392226
+Iteration: 24126   Dual objective     =    1958670214.317714
+Iteration: 24263   Dual objective     =    1969164094.963330
+Iteration: 24471   Dual objective     =    1995835918.362786
+Iteration: 24574   Dual objective     =    1999991801.565300
+Iteration: 24805   Dual objective     =    2008975029.869712
+Iteration: 25140   Dual objective     =    2022948411.789843
+Iteration: 25389   Dual objective     =    2072848894.212994
+Iteration: 25782   Dual objective     =    2127206565.887269
+Iteration: 26213   Dual objective     =    2165507664.460522
+Iteration: 26345   Dual objective     =    2168092928.876427
+Iteration: 26710   Dual objective     =    2176271816.581415
+Iteration: 26994   Dual objective     =    2186824492.669352
+Iteration: 27308   Dual objective     =    2197292137.545702
+Iteration: 27539   Dual objective     =    2227745033.687127
+Iteration: 27964   Dual objective     =    2237326336.602542
+Iteration: 28325   Dual objective     =    2238951165.016886
+Iteration: 28499   Dual objective     =    2240690526.338083
+Iteration: 28933   Dual objective     =    2243506559.474967
+Iteration: 29285   Dual objective     =    2252461015.903022
+Iteration: 29637   Dual objective     =    2254723800.642810
+Elapsed time = 106.41 sec. (30002.57 ticks, 29727 iterations)
+Iteration: 29934   Dual objective     =    2256480220.239288
+Iteration: 30220   Dual objective     =    2257268668.213220
+Removing perturbation.
+Iteration: 30294    Objective     =    2252324396.219921
+Iteration: 30559    Objective     =    2251641653.178706
+LP status(1): optimal
+Cplex Time: 113.67sec (det. 32286.89 ticks)
+
+Optimal solution found.
+Objective :  2251432837.452367
+
+--- Restarting execution
+--- Curtail_v1.gms(26395) 7 Mb
+--- Reading solution for model costmin
+--- Curtail_v1.gms(26395) 12 Mb
+--- Executing after solve: elapsed 0:02:01.470
+--- Curtail_v1.gms(26396) 13 Mb
+--- GDX File C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.gdx
+--- Curtail_v1.gms(26397) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.gdx
+Output file: C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.xlsx
+Total time = 3610 Ms
+--- Curtail_v1.gms(26398) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.gdx
+Output file: C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.xlsx
+Adding new sheet: wind
+Total time = 5891 Ms
+--- Curtail_v1.gms(26399) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.gdx
+Output file: C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.xlsx
+Adding new sheet: charging
+Total time = 7484 Ms
+--- Curtail_v1.gms(26400) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.gdx
+Output file: C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.xlsx
+Adding new sheet: discharging
+Total time = 7844 Ms
+--- Curtail_v1.gms(26401) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.gdx
+Output file: C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.xlsx
+Adding new sheet: level
+Total time = 5218 Ms
+--- Curtail_v1.gms(26402) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.gdx
+Output file: C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.xlsx
+Adding new sheet: turbine_cap
+Total time = 6203 Ms
+--- Curtail_v1.gms(26403) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.gdx
+Output file: C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.xlsx
+Adding new sheet: generator_cap
+Total time = 5844 Ms
+--- Curtail_v1.gms(26404) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.gdx
+Output file: C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.xlsx
+Adding new sheet: pv_cap
+Total time = 6672 Ms
+--- Curtail_v1.gms(26405) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.gdx
+Output file: C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.xlsx
+Adding new sheet: inverter_cap
+Total time = 7203 Ms
+--- Curtail_v1.gms(26406) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.gdx
+Output file: C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.xlsx
+Adding new sheet: charging_cap
+Total time = 5859 Ms
+--- Curtail_v1.gms(26407) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.gdx
+Output file: C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.xlsx
+Adding new sheet: storage_cap
+Total time = 5453 Ms
+--- Curtail_v1.gms(26408) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.gdx
+Output file: C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.xlsx
+Adding new sheet: discharging_cap
+Total time = 4922 Ms
+--- Curtail_v1.gms(26409) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.gdx
+Output file: C:\Users\asus\Desktop\model\1_Basic+Curtailment\results2.xlsx
+Adding new sheet: z
+Total time = 4703 Ms
+--- Curtail_v1.gms(26409) 13 Mb  4 secs
+--- GDX File C:\Users\asus\Desktop\model\1_Basic+Curtailment\Curtail_v1.gdx
+*** Status: Normal completion
+--- Job Curtail_v1.gms Stop 12/01/18 14:34:09 elapsed 0:03:22.015

@@ -1,0 +1,48 @@
+[PROJECT]
+
+[RP:UNTITLED_1]
+1=
+
+[RP:PART1_V2]
+1=
+
+[RP:EXCELIMPORT]
+1=
+
+[RP:EXERCISE 1]
+1=
+
+[RP:ASSIGNMENT1]
+1=
+
+[RP:PART1_V3]
+1=
+
+[RP:BASICMODEL]
+1=
+
+[RP:CURTAIL_V1]
+1=GDX=Curtail_v1.gdx
+2=
+
+[MRUFILES]
+1=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\1_Basic+Curtail\Curtail_v1.gms
+2=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\1_Basic+Curtail\Curtail_v1.lst
+3=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\1_Curtailment Model\Curtail_v1.lst
+4=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\1_Curtailment Model\Curtail_v1.gms
+5=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\Curtailment Model\Curtail_v1.lst
+6=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\Curtailment Model\Curtail_v1.gms
+7=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\Basic Model\Part1_v3.lst
+8=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\0. Final Assignment\Model\Basic Model\Part1_v3.gms
+9=C:\Users\Victor Juarez\Documents\DTU\Semester 1\42002 - Modelling and Analysis of Sustainable Energy Systems\GAMS files\Assignment 1\Assignment1.gms
+
+[OPENWINDOW_1]
+FILE0=C:\Users\asus\Desktop\model\0_Basic Model\BasicModel.gms
+FILE1=C:\Users\asus\Desktop\model\1_Basic+Curtailment\Curtail_v1.gms
+FILE2=C:\Users\asus\Desktop\model\1_Basic+Curtailment\Curtail_v1.lst
+FILE3=C:\Users\asus\Desktop\model\1_Basic+Curtailment\Curtail_v1.lst
+MAXIM=0
+TOP=189
+LEFT=54
+HEIGHT=400
+WIDTH=400

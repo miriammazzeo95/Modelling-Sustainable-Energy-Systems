@@ -1,0 +1,196 @@
+
+--- Job BasicModel.gms Start 12/01/18 14:07:20 25.1.2 r67455 WEX-WEI x86 64bit/MS Windows
+GAMS 25.1.2   Copyright (C) 1987-2018 GAMS Development. All rights reserved
+Licensee: Course License Fall 2018                       G180813:1704AO-GEN
+          Technical University of Denmark Management Engineering     DC8756
+          License for teaching and research at degree granting institutions
+          License Admin: Thomas Stidsen, thst@man.dtu.dk                   
+--- Starting compilation
+--- BasicModel.gms(3) 3 Mb
+--- call =xls2gms r=a1:b8760 i=Demand.xls o=demand.inc
+--- BasicModel.gms(20) 3 Mb
+--- . demand.inc(8771) 4 Mb
+--- BasicModel.gms(26) 4 Mb
+--- . windprofile.inc(8760) 4 Mb
+--- BasicModel.gms(32) 4 Mb
+--- . PVprofile.inc(8760) 4 Mb
+--- BasicModel.gms(129) 4 Mb
+--- Starting execution: elapsed 0:00:06.614
+--- BasicModel.gms(26343) 5 Mb
+--- Generating LP model costmin
+--- BasicModel.gms(26405) 22 Mb
+---   78,841 rows  43,808 columns  187,864 non-zeroes
+--- Executing CPLEX: elapsed 0:00:07.245
+
+IBM ILOG CPLEX   25.1.2 r67455 Released Aug  1, 2018 WEI x86 64bit/MS Windows 
+--- GAMS/Cplex licensed for continuous and discrete problems.
+Cplex 12.8.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 2.52 Mb
+Use option 'names no' to turn use of names off
+CPXPARAM_Advance                                 0
+CPXPARAM_Simplex_Limits_Iterations               2000000000
+CPXPARAM_TimeLimit                               1000
+CPXPARAM_Threads                                 1
+CPXPARAM_Parallel                                1
+CPXPARAM_Tune_TimeLimit                          200
+Tried aggregator 1 time.
+LP Presolve eliminated 20788 rows and 4864 columns.
+Aggregator did 12876 substitutions.
+Reduced LP has 45177 rows, 26068 columns, and 120736 nonzeros.
+Presolve time = 0.59 sec. (304.22 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =     661308950.214912
+Perturbation started.
+Iteration:   202   Dual objective     =    1019461680.628381
+Iteration:  1037   Dual objective     =    1032378936.208096
+Iteration:  1231   Dual objective     =    1062691242.672410
+Iteration:  1429   Dual objective     =    1062694743.806555
+Iteration:  1627   Dual objective     =    1062698041.784855
+Iteration:  1825   Dual objective     =    1062702106.900473
+Iteration:  2023   Dual objective     =    1062706189.821781
+Iteration:  2221   Dual objective     =    1062711347.296713
+Iteration:  2419   Dual objective     =    1062715510.368066
+Iteration:  2617   Dual objective     =    1062720756.781168
+Iteration:  2816   Dual objective     =    1062726345.208860
+Iteration:  2970   Dual objective     =    1103011126.451035
+Iteration:  3164   Dual objective     =    1208115583.403622
+Iteration:  3355   Dual objective     =    1676822545.960373
+Iteration:  3609   Dual objective     =    1676835557.201669
+Iteration:  3889   Dual objective     =    1676837556.426101
+Iteration:  4169   Dual objective     =    1739813147.750887
+Iteration:  4543   Dual objective     =    1762023713.050609
+Iteration:  4780   Dual objective     =    1762056467.891270
+Iteration:  5164   Dual objective     =    1771709220.602401
+Iteration:  5408   Dual objective     =    1831779908.609521
+Iteration:  5662   Dual objective     =    1891963842.336035
+Iteration:  5860   Dual objective     =    1972536855.204100
+Iteration:  6054   Dual objective     =    2045568599.497997
+Iteration:  6253   Dual objective     =    2109917292.858859
+Iteration:  6451   Dual objective     =    2169841710.447580
+Iteration:  6650   Dual objective     =    2221769594.291121
+Iteration:  6848   Dual objective     =    2273333124.018486
+Iteration:  7045   Dual objective     =    2319872543.513488
+Iteration:  7347   Dual objective     =    2336135960.591015
+Elapsed time = 27.38 sec. (10000.44 ticks, 7498 iterations)
+Iteration:  7561   Dual objective     =    2367128617.647071
+Iteration:  7768   Dual objective     =    2400692107.884631
+Iteration:  7974   Dual objective     =    2430148230.081750
+Iteration:  8177   Dual objective     =    2481312982.410691
+Iteration:  8371   Dual objective     =    2504439053.077666
+Iteration:  8567   Dual objective     =    2523034210.303123
+Iteration:  8763   Dual objective     =    2536404474.107307
+Iteration:  8954   Dual objective     =    2543816072.328553
+Iteration:  9154   Dual objective     =    2547980619.944485
+Removing perturbation.
+LP status(1): optimal
+Cplex Time: 34.44sec (det. 13122.51 ticks)
+
+Optimal solution found.
+Objective :  2547909599.271307
+
+--- Restarting execution
+--- BasicModel.gms(26405) 7 Mb
+--- Reading solution for model costmin
+--- BasicModel.gms(26405) 12 Mb
+--- Executing after solve: elapsed 0:00:42.883
+--- BasicModel.gms(26407) 13 Mb
+--- GDX File C:\Users\asus\Desktop\model\0_Basic Model\results2.gdx
+--- BasicModel.gms(26408) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\0_Basic Model\results2.gdx
+Output file: C:\Users\asus\Desktop\model\0_Basic Model\results2.xlsx
+Total time = 4359 Ms
+--- BasicModel.gms(26409) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\0_Basic Model\results2.gdx
+Output file: C:\Users\asus\Desktop\model\0_Basic Model\results2.xlsx
+Adding new sheet: wind
+Total time = 5250 Ms
+--- BasicModel.gms(26410) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\0_Basic Model\results2.gdx
+Output file: C:\Users\asus\Desktop\model\0_Basic Model\results2.xlsx
+Adding new sheet: charging
+Total time = 4796 Ms
+--- BasicModel.gms(26411) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\0_Basic Model\results2.gdx
+Output file: C:\Users\asus\Desktop\model\0_Basic Model\results2.xlsx
+Adding new sheet: discharging
+Total time = 4750 Ms
+--- BasicModel.gms(26412) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\0_Basic Model\results2.gdx
+Output file: C:\Users\asus\Desktop\model\0_Basic Model\results2.xlsx
+Adding new sheet: level
+Total time = 4766 Ms
+--- BasicModel.gms(26413) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\0_Basic Model\results2.gdx
+Output file: C:\Users\asus\Desktop\model\0_Basic Model\results2.xlsx
+Adding new sheet: turbine_cap
+Total time = 5000 Ms
+--- BasicModel.gms(26414) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\0_Basic Model\results2.gdx
+Output file: C:\Users\asus\Desktop\model\0_Basic Model\results2.xlsx
+Adding new sheet: generator_cap
+Total time = 4610 Ms
+--- BasicModel.gms(26415) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\0_Basic Model\results2.gdx
+Output file: C:\Users\asus\Desktop\model\0_Basic Model\results2.xlsx
+Adding new sheet: pv_cap
+Total time = 4812 Ms
+--- BasicModel.gms(26416) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\0_Basic Model\results2.gdx
+Output file: C:\Users\asus\Desktop\model\0_Basic Model\results2.xlsx
+Adding new sheet: inverter_cap
+Total time = 4422 Ms
+--- BasicModel.gms(26417) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\0_Basic Model\results2.gdx
+Output file: C:\Users\asus\Desktop\model\0_Basic Model\results2.xlsx
+Adding new sheet: charging_cap
+Total time = 4640 Ms
+--- BasicModel.gms(26418) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\0_Basic Model\results2.gdx
+Output file: C:\Users\asus\Desktop\model\0_Basic Model\results2.xlsx
+Adding new sheet: storage_cap
+Total time = 4578 Ms
+--- BasicModel.gms(26419) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\0_Basic Model\results2.gdx
+Output file: C:\Users\asus\Desktop\model\0_Basic Model\results2.xlsx
+Adding new sheet: discharging_cap
+Total time = 4797 Ms
+--- BasicModel.gms(26420) 13 Mb
+
+GDXXRW           25.1.2 r67455 Released Aug  1, 2018 VS8 x86 32bit/MS Windows 
+Input file : C:\Users\asus\Desktop\model\0_Basic Model\results2.gdx
+Output file: C:\Users\asus\Desktop\model\0_Basic Model\results2.xlsx
+Adding new sheet: z
+Total time = 4906 Ms
+--- GDX File C:\Users\asus\Desktop\model\0_Basic Model\BasicModel.gdx
+*** Status: Normal completion
+--- BasicModel.gms(26420) 13 Mb  5 secs
+--- Job BasicModel.gms Stop 12/01/18 14:09:07 elapsed 0:01:47.264

@@ -1,0 +1,53 @@
+B 2 C o m p i l a t i o n
+B 26428 Include File Summary
+B 26448 Equation Listing    SOLVE costmin Using LP From line 26405
+D 26449 Costs
+D 26457 Demand
+D 26471 Maxgenw
+D 26482 Maxgenpv
+D 26493 Maxcharge
+D 26504 Maxdischarge
+D 26515 Maxstorage
+D 26526 Wprod
+D 26537 Pvprod
+D 26548 Stlevel
+B 26565 Column Listing      SOLVE costmin Using LP From line 26405
+E 26566 pw
+E 26589 ppv
+E 26611 u
+E 26633 v
+E 26655 l
+E 26677 a1w
+E 35143 a2w
+E 43910 a1pv
+E 48115 a2pv
+E 56882 a1s
+E 65649 a2s
+E 74416 a3s
+E 83183 z
+B 83192 Model Statistics    SOLVE costmin Using LP From line 26405
+B 83208 Solution Report     SOLVE costmin Using LP From line 26405
+F 83238 Costs
+F 83246 Demand
+F 92011 Maxgenw
+F 100776 Maxgenpv
+F 109541 Maxcharge
+F 118306 Maxdischarge
+F 127071 Maxstorage
+F 135836 Wprod
+F 144601 Pvprod
+F 153366 Stlevel
+G 162126 pw
+G 170891 ppv
+G 179656 u
+G 188421 v
+G 197186 l
+G 205951 a1w
+G 205955 a2w
+G 205956 a1pv
+G 205957 a2pv
+G 205958 a1s
+G 205959 a2s
+G 205960 a3s
+G 205961 z
+B 205978 E x e c u t i o n
